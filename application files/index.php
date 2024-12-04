@@ -12,8 +12,8 @@
 <body>
     <div class="wrapper">
         <nav class="nav">
-            <div class="nav-logo">
-                <p>logo</p>
+            <div class="nav-logo" id="#index">
+                <p>E-pubs</p>
             </div>
 
             <div class="nav-menu">
@@ -25,7 +25,7 @@
             </div>
             
             <div class="nav-button">
-                <button class="btn" id="loginBtn">Sign In</button>
+                <button class="btn white-btn" id="loginBtn">Sign In</button>
                 <button class="btn" id="signupBtn">Sign Up</button>
             </div>
 
@@ -33,6 +33,40 @@
                 <i class='bx bx-menu'></i>
             </div>
         </nav>
+
+            <!---------form box------>
+            <div class="form-box">
+                
+                <!----------Sign-Up form---------->
+                <div class="registartion-container" id="register">
+                    <div class="top">
+                        <span>Have an account? <a href="#index" onclick="login()">Login</a></span>
+                        <header>Sign UP</header>
+                    </div>
+                    <div class="two-forms">
+                        <div class="input-field">
+                            <i class="bx bx-user"></i>
+                            <input type="text" class="input-field" name="fullName" placeholder="Full name">
+                        </div>
+                        <div class="input-field">
+                            <i class="bx bx-user"></i>
+                            <input type="email" class="input-field" name="emailAddress" placeholder="name@domain.com">
+                        </div>
+                        <div class="input-field">
+                            <i class="bx bx-user"></i>
+                            <input type="text" class="input-field" name="contactNo" placeholder="+27 763 324 8964">
+                        </div>
+                        <div class="input-field">
+                            <i class="bx bx-user"></i>
+                            <input type="password" class="input-field" name="password" placeholder="Password">
+                        </div>
+                        <div class="input-field">
+                            <i class="bx bx-user"></i>
+                            <input type="password" class="input-field" name="confirm_password" placeholder="Confirm password">
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 </body>
 </html>
